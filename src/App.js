@@ -15,11 +15,7 @@ class App extends Component {
             <Route
               exact
               path="/"
-              render={() => <Redirect to="/frank+sinatra" />}
-            />
-            <Route
-              path="/frank+sinatra"
-              render={() => <Item searchTerm="frank+sinatra" />}
+              render={() => <Redirect to="/search/frank+sinatra" />}
             />
             <Route
               path="/search/:searchInput"
